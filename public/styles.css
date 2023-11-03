@@ -1,0 +1,60 @@
+
+body{
+    box-sizing: border-box;
+    min-height: 100vh;
+    background: rgb(128, 128, 128);
+}
+
+.header{
+    width: 95%;
+    margin: 0 auto;
+    border: 1.5px solid rgb(199, 199, 199);
+    border-radius: 8px;
+    padding: 16px;
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+
+.main-body{
+    width: 95%;
+    margin: 2rem auto;
+    border: 1.5px solid rgb(199, 199, 199);
+    border-radius: 8px;
+    padding: 20px;
+}
+
+.chatbox{
+    margin: 1rem auto;
+    border: 1.5px solid rgb(199, 199, 199);
+    border-radius: 8px;
+    width: 85%;
+    max-width: 800px;
+    height: 500px;
+    background: white;
+    overflow: hidden;
+}
+
+.chatbox-messages{
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    overflow: none;
+}
+
+.chatbox-message{
+    padding: 10px;
+    border-bottom: 1px solid rgb(151, 151, 151);
+}
+
+.chatbox-message:nth-child(even){
+    background-color: rgb(255, 255, 255);
+}
+
+.chatbox-message:nth-child(odd){
+    background-color: rgb(231, 231, 231);
+}
+
+.form{
+    margin: 0 auto;
+    text-align: center;
+}
