@@ -14,18 +14,30 @@
         <div style="text-align: center;">Chat Box</div>
         <div class="chatbox">
             <ul class="chatbox-messages">
-                <li class="chatbox-message">Welcome message</li>   
+                  
             </ul>
         </div>
-        <form class="form">
+        <form class="form1">
+            <span>Normal Message</span>
             <input class="input" type="text" name="message">
             <button class="btn" type="submit">Send</button>
+        </form>
+        <form class="form2">
+            <span>Room Message</span>
+            <input class="input" type="text" name="room-message">
+            <button class="btn" type="submit">Send</button>
+        </form>
+        <form class="form3">
+            <span>Join Room</span>
+            <input class="input" type="text" name="room-name">
+            <button class="btn" type="submit">Join</button>
         </form>
     </section>
 
     <form class="form" action="/user" method="POST">
+        <span>Setting Up The User Name</span>
         <input class="input" type="text" name="name">
-        <button class="btn" type="submit">Send</button>
+        <button class="btn" type="submit">Set</button>
     </form>
     <!-- <section class="footer">
 
